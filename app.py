@@ -6,6 +6,6 @@ q3 = st.radio("3. 30分ごとに立ち上がるなどしていますか？", ["�
 
 if st.button("判定"):
     if q1 == "はい" and q2 == "はい" and q3 == "はい":
-        st.success("適合しています！")
+        st.success("身体活動量は十分です！")
     else:
         st.warning("不足しています。")
